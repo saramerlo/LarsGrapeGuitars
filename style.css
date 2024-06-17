@@ -99,9 +99,13 @@ img::selection{
     padding: 8px 16px!important;
     border-radius: var(--border-sm);
 }
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
 
 .navbar-nav{
-    column-gap: 3rem;
+    column-gap: 1.5rem;
 }
 
 #navbarSupportedContent {
@@ -113,8 +117,12 @@ img::selection{
 
 /* footer  */
 .footer-nav{
-    color: var(--text-secondary);
+    color: rgb(255, 255, 255, 0.6);
 }
+
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #5e5d5d !important;}
+
 .nav{
   display: flex;
   flex-direction: column;  
