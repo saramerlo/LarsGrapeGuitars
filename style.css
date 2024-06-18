@@ -442,3 +442,11 @@ article {
     padding:0.7rem  0.5rem;
     width: 35px;
 }
+.alert-warning {
+    background-color: #ffe181;
+}
+
+.alert {
+    margin-top: 6.3rem!important;
+    margin-bottom: 0;
+}
