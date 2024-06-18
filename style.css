@@ -450,3 +450,9 @@ article {
     margin-top: 6.3rem!important;
     margin-bottom: 0;
 }
+
+#news-page{
+    background-image: url(assets/knots.png);
+    background-repeat: repeat-y;
+}
+
