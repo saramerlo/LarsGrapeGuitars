@@ -87,6 +87,23 @@ img::selection{
     background-color:var(--primary-color);
   } 
 /* navbar */
+.logotype{
+    height:2rem;
+}
+.pittogramma{
+    height:1.3rem;
+}
+
+@media (min-width: 767px){
+    .logotype{
+        height:auto;
+        width: 3.75rem;
+    }
+    .pittogramma{
+        height:1.625rem;
+    }
+}
+    
 .navbar{
     background-color: var(--navbar-bg);
     font-family: var(--primary-font);
@@ -447,8 +464,13 @@ article {
 }
 
 .alert {
-    margin-top: 6.3rem!important;
+    margin-top: 5.6rem!important;
     margin-bottom: 0;
+}
+@media (min-width:767px) {
+    .alert {
+        margin-top: 6.3rem!important;
+    }
 }
 
 #news-page{
