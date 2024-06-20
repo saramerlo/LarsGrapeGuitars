@@ -367,11 +367,20 @@ font-weight: var(--light);
     transform: scale(1.2);
 } */
 
-.info{
+.info, .term{
     font-size: 0.875rem;
     font-weight: var(--light);
     color: var(--text-secondary);
 }
+
+.info{
+    color: var(--text-secondary);
+}
+
+.term{
+    color: #a5a4a4;
+}
+
 .card-text{
     font-weight: var(--light);
 }
@@ -448,11 +457,11 @@ article {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    width: 40px;
+    width: 45px;
     text-align: center;
     z-index: 10;
     transition: opacity 300ms ease-in-out;
-    background-color: #5b5b5b;
+    background-color: var(--secondary-color);
 }
 
 #toTop img{
@@ -492,7 +501,7 @@ li {
     #modelli img {
         width: auto;
         height: 100%;
-        max-height: 450px;}
+        max-height: 465px;}
  }
 
  @media (min-width:767px) {
@@ -500,3 +509,44 @@ li {
     flex-direction: row-reverse;
     }
  }
+
+#tyr, #hela, #fenrir, #drakkar, #ulfr, #freya, #loki {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#tyr{
+background-image: url(assets/shield.png);
+}
+
+#hela{
+background-image: url(assets/hela.png);
+}
+
+#fenrir, #ulfr {
+background-image: url(assets/fenrir.png);
+}
+
+#drakkar{
+background-image: url(assets/drakkar.png);
+}
+
+#freya{
+ background-image: url(assets/freya.png);
+}
+
+#loki{
+    background-image: url(assets/loki.png);
+}
+
+@media (min-width:767px)  {
+#hela, #freya, #drakkar {
+    background-position: 40% 100%;
+    }
+}
+
+/* #modelli {
+    background-image: url(assets/knots3.png);
+    background-repeat: repeat-y;
+    background-position: right;
+} */
