@@ -468,10 +468,22 @@ article {
     padding:0.7rem  0.5rem;
     width: 35px;
 }
+/* .alert-warning {
+    background-color:var(--secondary-color);
+    border-radius: 0;
+    border: 0;
+    color: #060606;
+    padding:1rem 0 ;
+}
+.alert-warning .btn-link{
+    color: #060606;
+
+} */
+
 .alert-warning {
     background-color: #ffe181;
-}
-
+    border-radius: 0;
+} 
 .alert {
     margin-top: 5.6rem!important;
     margin-bottom: 0;
@@ -550,3 +562,25 @@ background-image: url(assets/drakkar.png);
     background-repeat: repeat-y;
     background-position: right;
 } */
+
+p strong {
+    font-weight: var(--semibold);
+    color: var(--secondary-color);
+}
+
+/* .special{
+    background-color: var(--secondary-color);
+}
+
+.special .card-title, .special .card-text, .special .info, .special .btn-link{
+    color: var(--bg-primary);
+} */
+
+.onsale{
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+}
+
+.onsale .btn-link{
+    color: #410202;
+}
