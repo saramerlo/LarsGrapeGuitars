@@ -359,14 +359,6 @@ font-weight: var(--light);
     margin-top: 1rem;
 }
 
-/* .card-img {
-    transition: 0.5s;
-}
-
-.card-galley:hover .card-img  {
-    transform: scale(1.2);
-} */
-
 .info, .term{
     font-size: 0.875rem;
     font-weight: var(--light);
@@ -576,6 +568,8 @@ p strong {
     color: var(--bg-primary);
 } */
 
+/* aboutme page */
+
 .onsale{
     background-color: var(--secondary-color);
     border-radius: 8px;
@@ -632,6 +626,8 @@ position: relative;
     border: none;
 }
 
+/* riverb  */
+
 #announce{
     background-color: var(--secondary-color);
 }
@@ -653,6 +649,12 @@ border-color:var(--bg-primary) ;
 #announce p{
     font-weight: var(--regular);
 }
+
+.flag{
+    height: 8rem;
+}
+/* 
+form */
 
 #form{
     background-color: var(--bg-secondary);
