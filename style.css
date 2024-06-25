@@ -12,8 +12,8 @@
     --navbar-text:#EAEAEA;   
   
     /* text */
-    --text-primary:#fff;
-    --text-secondary:#DCDCDC;
+    --text-primary:#f0f0f0;
+    --text-secondary:#c9c9c9;
     --regular:400;
     --semibold:600;
     --medium:500;
@@ -68,7 +68,7 @@ h3{
 }
 
 p{
-    font-weight: var(--regular);
+    font-weight: var(--light);
 }
 
 .badge{
@@ -583,4 +583,95 @@ p strong {
 
 .onsale .btn-link{
     color: #410202;
+}
+
+.column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .column img {
+    width: 100%;
+  }
+
+  @media (min-width: 576px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+#about-gallery {
+position: relative;
+}
+.vegvisir{
+    position: absolute;
+    bottom: -2rem;
+    right: 0;
+    width: 7rem;
+}
+
+@media (min-width:767px){
+    .vegvisir{
+        bottom: -4rem;
+        right: -2rem;
+        width: 12rem;
+    }
+}
+
+#lavori{
+    background-image:url(assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+#lavori .card{
+    background-color:rgb(52, 52, 52, 0.95);
+    border: none;
+}
+
+#announce{
+    background-color: var(--secondary-color);
+}
+#announce .container{
+    display: flex;
+flex-direction: column;
+align-items: center
+}
+
+#announce h2, #announce p{
+   color: var(--bg-primary);
+}
+
+#announce .btn-outline{
+color: var(--bg-primary);
+border-color:var(--bg-primary) ;
+}
+
+#form{
+    background-color: var(--bg-secondary);
+}
+.form-label{
+    color: #dddddd;
+}
+.form-control, .form-select {
+    background-color: #484848;
+    color: var(--text-secondary);
+    border: 0;
+}
+.form-control::placeholder {
+    color: var(--text-secondary);
+}
+.form-control:focus, .form-select:focus {
+    background-color: #4e4e4e;
+    color: var(--text-primary);
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem var(--secondary-color);
+}
+
+.form-select{
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23DCDCDC' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E") no-repeat right 0.75rem center/16px 16px;
+    background-color: #484848;
 }
