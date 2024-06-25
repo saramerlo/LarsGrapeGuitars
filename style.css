@@ -650,6 +650,10 @@ color: var(--bg-primary);
 border-color:var(--bg-primary) ;
 }
 
+#announce p{
+    font-weight: var(--regular);
+}
+
 #form{
     background-color: var(--bg-secondary);
 }
