@@ -177,6 +177,7 @@ img::selection{
 }
 .socials, .design{
     justify-content: end;
+    text-align: end;
 }
 .terms, .footer-brand{
     justify-content: start;
