@@ -1,10 +1,10 @@
-// NEWS SWIPER 
+// SWIPER home 
 document.addEventListener("DOMContentLoaded", function(){
-  var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 2,
+  var swiper = new Swiper(".swiper-home", {
+    slidesPerView: 2,
     pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+    el: ".swiper-pagination",
+    clickable: true,
     },
     breakpoints: {
       // when window width is <= 480px
@@ -19,6 +19,16 @@ document.addEventListener("DOMContentLoaded", function(){
       }
     }
   });
+});
+
+// swiper modelli
+document.addEventListener("DOMContentLoaded", function(){
+  var swiper = new Swiper(".swiper-modelli", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 });
 
 //chiudi menù mobile
@@ -41,6 +51,7 @@ document.getElementById('toTop').style.display = 'none';
 // comparsa btn backto top
 window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
     if (scrollPosition > 400) {
         document.getElementById('toTop').style.display = 'inline';
     } else {
