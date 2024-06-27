@@ -596,17 +596,6 @@ background-image: url(assets/drakkar.png);
     }
 }
 
-/* wip-prova banner on sale su home */
-
-.onsale{
-    background-color: var(--secondary-color);
-    border-radius: var(--border-radius-md);
-}
-
-.onsale .btn-link{
-    color: #410202;
-}
-
 /* aboutme page */
 
 .column {
@@ -754,4 +743,8 @@ position: relative;
 
 .div1 img{
     max-height: 7rem;
+}
+
+#dettagli img{
+    width: 100%;
 }
