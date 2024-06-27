@@ -303,12 +303,19 @@ padding-top: calc(5rem + 80px);
 
 .btn-collapse{
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
     align-items: center;
     padding-bottom: 0.3rem;
     border-bottom-color: var(--secondary-color)!important;
     border-width: 2px!important;
     border-radius: 0;
+}
+
+.rotate-icon {
+    transition: transform 0.3s;
+  }
+.rotate-icon.collapsed {
+    transform: rotate(0.5turn);
 }
 
 /* PAGE */
