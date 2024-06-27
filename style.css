@@ -676,9 +676,7 @@ position: relative;
 /* swiper modelli */
 .swiper-modelli .swiper-slide img {
     display: block;
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
+    height: 100%;
   }
 
 /* wip le dimensioni vanno sistemate, ora sono di prova */
@@ -686,12 +684,12 @@ position: relative;
 .swiper-button-next, .swiper-button-prev{
     background-color: var(--bg-secondary);
     color: var(--text-primary);
-    padding: 2.5rem;
-    top:90%
+    padding: 2rem;
 }
 
-.swiper-button-next{    
-    left:6rem
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 2rem;
+    color: var(--text-secondary);
 }
 
 /* scheda tecnica */
