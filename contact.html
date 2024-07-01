@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I miei Modelli</title>
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/logo/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/logo/favicon-16x16.png">
+  <link rel="manifest" href="assets/logo/site.webmanifest">
+  <link rel="mask-icon" href="assets/logo/safari-pinned-tab.svg" color="#121212">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <!-- social -->
+  <meta property="og:title" content="Lars Grape Guitars">
+  <meta property="og:description" content="Descrizione dell'articolo">
+  <meta property="og:image" content="assets/logo/android-chrome-192x192.png">
+  <meta property="og:url" content="https://saramerlo.github.io/Portfolio-prova/index.html">
+  <meta property="og:type" content="website"> 
+  <!-- styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo/LARS_logo.png" class="logotype me-2" alt="Logo" class="me-2">
+        <img src="assets/logo/lars-name.png" class="pittogramma" alt="Logo" >
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="modelli.html">I miei Modelli</a>
+          <a class="nav-link active" href="aboutme.html">About me</a>
+          <a class="nav-link" href="news.html">News</a>
+          <a class="nav-link cta" href="contact.html">Contatti</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- form  -->
+<section class="page-section-start">
+    <header class="container d-flex align-items-center title col-lg-6 text-center">
+        <p class="badge">Bagde</p> 
+        <h2>I miei modelli</h2>
+        <div class="d-flex justify-content-center pb-2">
+            <div class="divider"></div>
+        </div>
+        <p class="pt-3">Access and follow quality content by our team of writers for free elit. Donec sollicitudin molestie malesuada.</p>
+        <h3 class="pt-4 pb-2">Contatti</h3>
+        <div class="col-8 row">
+            <p class="col-md-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                    </svg>
+            gmail.quell oche è</p>
+            <p class="col-md-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+            </svg>
+            Zona di Vicenza</p>
+        </div>
+    </header>
+    <form class="container" action="contact.php" method="post" id="form">
+        <div class="drakkar">
+            <img src="assets/icon/drakkar.png" class="img-fluid" alt="drakkar">
+        </div>
+        <div class="form row bg-container">
+        <div class="col-12">
+            <h3 class="text-center">Send a message</h3>
+            <div class="mb-3">
+            <label for="name" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Il tuo nome">
+            </div>
+            <div class="mb-3">
+            <label for="inputemail" class="form-label">Email (obbligatorio)</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="La tua mail">
+            </div>
+            <div class="mb-3">
+            <label for="serviceselection" class="form-label">What service are you interested in</label>
+            <select class="form-select" aria-label="Service selection">
+                <option selected>Open this select menu</option>
+                <option value="1">Costruzione</option>
+                <option value="2">Riparazione</option>
+                <option value="3">Altro</option>
+                </select>
+            </div>
+            <div class="mb-3">
+            <label for="Textarea" class="form-label">Messaggio (obbligatorio)</label>
+            <textarea class="form-control" id="Textarea" placeholder="Scrivi qui il tuo messaggio" rows="5"></textarea>
+            </div>
+            <div class="d-flex justify-content-center pt-5">
+            <a type="submit" value="submit" class="btn btn-primary" data-bs-toggle="modal"  data-bs-target="#send">Invia</a>
+            <!-- <input type="submit" value="Invia" class="btn btn-sm btn-light" data-bs-toggle="modal"  data-bs-target="#send">Invia</input> -->
+            </div>
+        </div>
+        </div>
+    </form>
+</section>
+
+<!-- social -->
+<section class="section-page" id="social">
+    <div class="container">
+        <div class="row social-group">
+            <div class="col-md-3 d-flex">
+                <div class="btn btn-primary btn-social-big">IG</div>
+                <div class="col">
+                    <p class="info m-0">Facebook</p>
+                    <p class="m-0">LArs Grape GUitars</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex">
+                <div class="btn btn-primary btn-social-big">FB</div>
+                <div class="col">
+                    <p class="info m-0">Facebook</p>
+                    <p class="m-0">LArs Grape GUitars</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex">
+                <div class="btn btn-primary btn-social-big">FB</div>
+                <div class="col">
+                    <p class="info m-0">Facebook</p>
+                    <p class="m-0">LArs Grape GUitars</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex">
+                <div class="btn btn-primary btn-social-big">FB</div>
+                <div class="col">
+                    <p class="info m-0">Facebook</p>
+                    <p class="m-0">LArs Grape GUitars</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- riverb -->
+<section class="page-section" id="announce">
+    <div class="container">
+      <h2 class="text-uppercase">Go to riverb</h2>
+      <p class="text-center"> Hey there! Currently on sale on Riverb/Go to Riverb to check what’s on sale. </p>
+      <a href="aboutme.html" class="btn btn-outline" type="button" aria-label="vai al progetto">GO TO RIVERB
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="bi bi-chevron-right ms-2" viewBox="0 0 16 16" stroke="#272727" stroke-width="1.5">
+          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+<!-- footer -->
+<footer class="page-section">
+  <div class="container">
+    <div class="row">
+      <a class="footer-brand d-flex" href="index.html">
+        <img src="assets/logo/lars-name.png" alt="Logo" height="26">
+      </a>
+    </div>
+    <div class="footer-content row border-bottom">
+      <ul class="nav col-md-9 p-0">
+        <li class="nav-item">
+          <a href="index.html" class="footer-nav">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="modelli.html" class="footer-nav">I miei Modelli</a>
+        </li>
+        <li class="nav-item">
+          <a href="aboutme.html" class="footer-nav">About me</a>
+        </li>
+        <li class="nav-item">
+          <a href="news.html" class="footer-nav">News</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="footer-nav">Contatti</a>
+        </li>
+      </ul>  
+      <div class="socials col-md-3">
+        <a class="btn-social" target="_blank" href="#">
+          <img src="assets/icon/In.svg" alt="icona LinkedIn">
+        </a>
+        <a class="btn-social" target="_blank" href="#">
+          <img src="assets/icon/Ig.svg" alt="icona Behance">
+        </a>
+        <a class="btn-social" target="_blank" href="#">
+          <img src="assets/icon/In.svg" alt="icona LinkedIn">
+        </a>
+        <a class="btn-social" target="_blank" href="#">
+          <img src="assets/icon/Ig.svg" alt="icona Behance">
+        </a>
+      </div>
+    </div>
+    <div class="row d-flex-wrap">
+      <div class="col-md-8 terms pt-2">
+        <p class="term m-0">Copyright © 2024 — Lars Grape Guitars </p>
+        <p class="term m-0">|</p>
+        <a href="#" class="term">Privacy Policy</a>
+      </div>
+      <div class="col-md-4">
+        <p class="term pt-2 m-0 design">Made by <a href="#" class="btn-link px-2">Sara Merlo</a> </p>
+        <p class="term design" >Icons made by Freepik from www.flaticon.com </p>
+      </div>
+      <!-- wip aggiungi link con tracciamento -->
+    </div>
+  </div>
+  <div class="knot3">
+    <img src="assets/knot3.png" class="img-fluid" alt="">
+  </div>
+ </footer>
+
+<!-- torna su -->
+<a href="#" id="toTop" aria-label="Scorri in alto">
+  <img src="assets/icon/arrow.svg" class="img-fluid" alt="freccia torna su">
+</a>
+
+  <script src="script.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
+</body>
+</html>
