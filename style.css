@@ -254,6 +254,13 @@ padding-top: calc(5rem + 80px);
     padding: 0.5rem;
 }
 
+.btn-social-big{
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    display: flex;
+}
+
 .btn-outline:hover{
     color: var(--primary-color);
     border: solid;
@@ -484,6 +491,7 @@ article {
 
 #form{
     background-color: var(--bg-secondary);
+    position: relative;
 }
 .form-label{
     color: #dddddd;
@@ -523,7 +531,10 @@ article {
     padding-bottom: 0;
     }
 }
-
+.bg-container{
+    padding: 4rem 2rem;
+    border-radius: var(--border-radius-md);
+}
 /* .alert-warning {
     background-color:var(--secondary-color);
     border-radius: 0;
@@ -752,4 +763,18 @@ position: relative;
 
 #dettagli img{
     width: 100%;
+}
+/* contact  */
+#social{
+    background-color: var(--bg-secondary);
+}
+
+.social-group{
+    padding: 2.5rem 0;
+}
+
+.drakkar{
+    position: absolute;
+    top:-12rem;
+    right: 2rem;
 }
