@@ -258,7 +258,9 @@ padding-top: calc(5rem + 80px);
     padding: 0.5rem 1rem;
     margin-right: 1rem;
     align-items: center;
+    justify-content: center;
     display: flex;
+    aspect-ratio: 1/1;
 }
 
 .btn-outline:hover{
@@ -288,6 +290,11 @@ padding-top: calc(5rem + 80px);
    }
 .btn-link {
     width: auto!important;
+}
+    .btn-social-big {
+    width: auto!important;
+    padding: 0.5rem 1rem;
+    aspect-ratio: 1/1;
 }
 }
 
@@ -777,4 +784,30 @@ position: relative;
     position: absolute;
     top:-12rem;
     right: 2rem;
+}
+
+@media (min-width:767px){
+    .drakkar-icon{
+        position: absolute;
+        top:-8rem;
+        right: 2rem;
+        width: 12rem;
+    }
+}
+
+/* prova grid */
+.column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+.column img {
+width: 100%;
+}
+
+@media (min-width: 576px) {
+.column {
+    flex: 50%;
+    max-width: 50%;
+}
 }
