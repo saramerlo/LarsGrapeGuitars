@@ -166,6 +166,7 @@ img::selection{
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
+    text-align: center;
 }
 
 .footer-brand{
@@ -542,17 +543,6 @@ article {
     padding: 4rem 2rem;
     border-radius: var(--border-radius-md);
 }
-/* .alert-warning {
-    background-color:var(--secondary-color);
-    border-radius: 0;
-    border: 0;
-    color: #060606;
-    padding:1rem 0 ;
-}
-.alert-warning .btn-link{
-    color: #060606;
-
-} */
 
 .alert-warning {
     background-color: #ffe181;
@@ -604,7 +594,7 @@ background-image: url(assets/drakkar.png);
 }
 
 #loki{
-    background-image: url(assets/loki.png);
+background-image: url(assets/loki.png);
 }
 
 @media (min-width:767px) {
@@ -671,7 +661,6 @@ position: relative;
 }
 
 /* announce */
-
 #announce{
     background-color: var(--secondary-color);
 }
@@ -692,6 +681,7 @@ position: relative;
 
 #announce p{
     font-weight: var(--regular);
+    padding-bottom: 1rem;
 }
 
 .flag{
@@ -780,10 +770,11 @@ position: relative;
     padding: 2.5rem 0;
 }
 
-.drakkar{
+.drakkar-icon{
     position: absolute;
-    top:-12rem;
-    right: 2rem;
+    top:-4rem;
+    right: 1rem;
+    width: 8rem;
 }
 
 @media (min-width:767px){
@@ -809,5 +800,25 @@ width: 100%;
 .column {
     flex: 50%;
     max-width: 50%;
+    }
 }
+
+#social .social-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#social .container {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+@media (min-width:767px){
+    #social .social-group{
+        flex-direction: row;
+    }
+    #social .container {
+        display: block;
+    }
 }
