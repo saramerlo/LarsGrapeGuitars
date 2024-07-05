@@ -549,10 +549,15 @@ article {
     }
 }
 .bg-container{
+    padding: 3rem 1rem;
+    border-radius: var(--border-radius-md);
+}
+@media (min-width:767px){
+    .bg-container{
     padding: 4rem 2rem;
     border-radius: var(--border-radius-md);
 }
-
+}
 .alert-warning {
     background-color: #ffe181;
     border-radius: 0;
