@@ -58,8 +58,8 @@ h3{
 
 p{
     font-weight: var(--light);
-    font-size: 0.9rem;
-}
+    font-size: 0.875rem;
+}   
 
 p strong {
     font-weight: var(--semibold);
