@@ -432,8 +432,17 @@ font-weight: var(--light);
     color: var(--text-primary);
 }
 
-.card-body{
+/* .card-body{
     padding:2rem 2.5rem; 
+} */
+.card-body{
+    padding:1rem 1.5rem; 
+}
+
+@media (min-width:767px) {
+    .card-body{
+        padding:2rem 2.5rem; 
+    }
 }
 
 article {
