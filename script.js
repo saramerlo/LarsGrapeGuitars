@@ -68,3 +68,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
     icon.classList.toggle('collapsed');
   });
 });
+
+// share social
+
+const pageUrl = encodeURIComponent(window.location.href);
+// Ottieni il titolo della pagina corrente
+const pageTitle = encodeURIComponent(document.title);
+
+document.getElementById('facebook-share').href = 'https://www.facebook.com/sharer.php?u=' + window.location.href;
+  document.getElementById('twitter-share').href = 'https://twitter.com/intent/tweet?url=' + window.location.href;
+  document.getElementById('linkedin-share').href = 'https://www.linkedin.com/shareArticle?mini=true&url=' + window.location.href;
