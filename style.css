@@ -82,6 +82,11 @@ p strong {
     font-size: 0.875rem;
     font-weight: var(--light);
 }
+.article-info{
+    font-size: 0.875rem;
+    font-weight: var(--medium);
+    color: var(--secondary-color);
+}
 
 .info{
     color: var(--text-secondary);
@@ -252,7 +257,13 @@ padding-top: calc(5rem + 80px);
 }
 
 .btn-social{
-    padding: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    margin: 0 0.3rem;
+}
+
+.share{
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius-sm);
 }
 
 .btn-social-big{
@@ -835,4 +846,17 @@ width: 100%;
     #social .container {
         display: block;
     }
+}
+
+/* prova articolo  */
+
+.list-unstyled li {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: var(--text-primary);
+    font-weight: var(--light);
+}
+
+.list-unstyled svg {
+margin-right: 1.54rem;
 }
