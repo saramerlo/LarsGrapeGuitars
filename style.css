@@ -210,7 +210,7 @@ position: relative;
 
 /* hero */
 .hero {
-background-image: linear-gradient(to left, rgba(239, 33, 33, 0), rgba(0 0 0 / 0.6)), url(assets/bg.png);
+background-image: linear-gradient(to left, rgba(239, 33, 33, 0), rgba(0 0 0 / 0.6)), url(assets/tyr.webp);
 background-size: cover;
 background-position: center;
 padding-bottom: 5rem;
@@ -600,27 +600,27 @@ li {
 }
 
 #tyr{
-background-image: url(assets/shield.png);
+background-image: url(assets/shield.webp);
 }
 
 #hela{
-background-image: url(assets/hela.png);
+background-image: url(assets/hela.webp);
 }
 
 #fenrir, #ulfr {
-background-image: url(assets/fenrir.png);
+background-image: url(assets/fenrir.webp);
 }
 
 #drakkar{
-background-image: url(assets/drakkar.png);
+background-image: url(assets/drakkar.webp);
 }
 
 #freya{
- background-image: url(assets/freya.png);
+ background-image: url(assets/freya.webp);
 }
 
 #loki{
-background-image: url(assets/loki.png);
+background-image: url(assets/loki.webp);
 }
 
 @media (min-width:767px) {
@@ -675,7 +675,7 @@ position: relative;
 }
 
 #lavori{
-    background-image:url(assets/bg.png);
+    background-image:url(assets/tyr.webp);
     background-size: cover;
     background-position: center;
     padding: 8rem 0;
