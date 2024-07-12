@@ -62,7 +62,7 @@ window.addEventListener('scroll', function() {
 // rotate icon
 document.addEventListener('DOMContentLoaded', (event) => {
   const link  = document.getElementById('collapse-head');
-  const icon = link.querySelector('rotate-icon');
+  const icon = link.querySelector('.rotate-icon');
 
   link.addEventListener('click', () => {
     icon.classList.toggle('collapsed');
