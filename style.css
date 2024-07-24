@@ -72,6 +72,7 @@ p strong {
     font-weight: var(--medium);
 }
 
+
 .info, .term{
     font-size: 0.875rem;
     font-weight: var(--light);
@@ -98,6 +99,7 @@ p strong {
         font-size:1.25rem;
     }
 }
+
 
 ::selection {
 color:var(--text-primary);
@@ -253,8 +255,8 @@ padding-top: calc(5rem + 80px);
     text-decoration: none;
 }
 
-.btn-primary:hover{
-    background-color: var(--primary-color);
+.btn-link:hover, .btn-link:active, .btn-link:focus{
+    color: var(--primary-color)!important;
 }
 
 .btn-outline{
@@ -293,10 +295,6 @@ padding-top: calc(5rem + 80px);
     border-color: var(--primary-color);
 }
 
-.btn-outline:hover svg  {
-    stroke:var(--primary-color);
-  }
-
 @media (min-width:992px) {
     .cta{
         background-color: var(--primary-color);
@@ -312,6 +310,7 @@ padding-top: calc(5rem + 80px);
     padding-left: 0;
     padding-right: 0;
    }
+
 .btn-link {
     width: auto!important;
 }
