@@ -66,17 +66,12 @@ p strong {
     color: var(--secondary-color);
 }
 
-@media (min-width:797px){
-    p, li{
-    font-size: 1rem;
-    }
-}
-
 .badge{
     color: var(--secondary-color);
-    font-size:1.25rem;
+    font-size:1rem;
     font-weight: var(--medium);
 }
+
 
 .info, .term{
     font-size: 0.875rem;
@@ -95,6 +90,16 @@ p strong {
 .term{
     color: #a5a4a4;
 }
+
+@media (min-width:797px){
+    p, li, .article-info{
+    font-size: 1rem;
+    }
+    .badge{
+        font-size:1.25rem;
+    }
+}
+
 
 ::selection {
 color:var(--text-primary);
@@ -246,8 +251,8 @@ padding-top: calc(5rem + 80px);
     text-decoration: none;
 }
 
-.btn-link:hover{
-    color: var(--primary-color);
+.btn-primary:hover{
+    background-color: var(--primary-color);
 }
 
 .btn-outline{
@@ -260,11 +265,15 @@ padding-top: calc(5rem + 80px);
     padding: 0.5rem 0.3rem;
 }
 
-.share{
+.btn-share{
     background-color: var(--secondary-color);
     border-radius: var(--border-radius-sm);
     margin: 0 0.3rem;
     padding: 0.5rem 0.8rem;
+}
+
+.btn-share:hover{
+    background-color: var(--primary-color);
 }
 
 .btn-social-big{
