@@ -75,7 +75,7 @@ p strong {
 
 .info, .term{
     font-size: 0.875rem;
-    font-weight: var(--light);
+    
 }
 .article-info{
     font-size: 0.875rem;
@@ -85,10 +85,12 @@ p strong {
 
 .info{
     color: var(--text-secondary);
+    font-weight: var(--medium);
 }
 
 .term{
     color: #a5a4a4;
+    font-weight: var(--light);
 }
 
 @media (min-width:797px){
@@ -280,14 +282,6 @@ padding-top: calc(5rem + 80px);
     background-color: var(--primary-color);
 }
 
-.btn-social-big{
-    padding: 0.5rem 1rem;
-    margin-right: 1rem;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    aspect-ratio: 1/1;
-}
 
 .btn-outline:hover{
     color: var(--primary-color);
@@ -314,12 +308,22 @@ padding-top: calc(5rem + 80px);
 .btn-link {
     width: auto!important;
 }
-    .btn-social-big {
-    width: auto!important;
-    padding: 0.5rem 1rem;
-    aspect-ratio: 1/1;
+#social .social-group{
+    text-align: center;
 }
 }
+
+@media (min-width: 768px) {
+    .btn-social-big{
+        padding: 1rem 1.2rem;
+    }
+    #social .social-group{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 0.5rem;
+        justify-content: flex-end;
+    }
+    }
 
 #toTop{
     font-size: 20px;
@@ -802,10 +806,6 @@ position: relative;
     background-color: var(--bg-secondary);
 }
 
-.social-group{
-    padding: 2.5rem 0;
-}
-
 .drakkar-icon{
     position: absolute;
     top:-4rem;
@@ -836,26 +836,6 @@ width: 100%;
 .column {
     flex: 50%;
     max-width: 50%;
-    }
-}
-
-#social .social-group {
-    display: flex;
-    flex-direction: column;
-}
-
-#social .container {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-}
-
-@media (min-width:767px){
-    #social .social-group{
-        flex-direction: row;
-    }
-    #social .container {
-        display: block;
     }
 }
 
