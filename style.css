@@ -313,6 +313,10 @@ padding-top: calc(5rem + 80px);
 }
 }
 
+.last-btn{
+    margin-bottom: 2rem;
+}
+
 @media (min-width: 768px) {
     .btn-social-big{
         padding: 1rem 1.2rem;
@@ -322,6 +326,9 @@ padding-top: calc(5rem + 80px);
         flex-direction: row-reverse;
         gap: 0.5rem;
         justify-content: flex-end;
+    }
+    .last-btn{
+        margin-bottom: 0rem;
     }
     }
 
