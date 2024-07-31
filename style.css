@@ -32,7 +32,7 @@ body{
     font-family: var(--primary-font);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, li {
     color: var(--text-primary);
 }
 
@@ -606,10 +606,6 @@ article {
 }
 
 /* pag-modelli */
-
-li {
-    color: var(--text-secondary);
-}
 
 #modelli img {
     width: 100%;
