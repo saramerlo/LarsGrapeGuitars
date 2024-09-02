@@ -221,7 +221,7 @@ position: relative;
 
 /* hero */
 .hero {
-background-image: linear-gradient(to left, rgba(239, 33, 33, 0), rgba(0 0 0 / 0.6)), url(assets/tyr.webp);
+background-image: linear-gradient(to left, rgba(239, 33, 33, 0), rgba(0 0 0 / 0.6)), url(assets/lars-bg.jpg);
 background-size: cover;
 background-position: center;
 padding-bottom: 5rem;
