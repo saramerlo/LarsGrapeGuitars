@@ -266,7 +266,7 @@ padding-top: calc(5rem + 80px);
     transform: translate(-50%, -50%);
     text-align: center;
     color: white; /* Colore del testo per garantire la leggibilità */
-  }
+/*   }
   
   @media (min-width:800px) {
     .text-overlay{
@@ -280,7 +280,7 @@ padding-top: calc(5rem + 80px);
         object-position: center;
         height: 800px;
       }
-} */
+} */ 
 
 /* btn */
 .btn {
