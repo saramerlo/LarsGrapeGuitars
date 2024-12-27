@@ -220,7 +220,6 @@ position: relative;
 }
 
 /* hero */
-/* hero */
 .hero {
     padding-bottom: 1rem;
     padding-top:  50px;
@@ -267,9 +266,7 @@ position: relative;
       }
 }
 
-
-
-/* .hero {
+/* .hero 2 {
 background-image: linear-gradient(to left, rgba(239, 33, 33, 0), rgba(0 0 0 / 0.6)), url(assets/lars-bg.jpg);
 background-size: cover;
 background-position: right;
@@ -284,52 +281,6 @@ padding-top: calc(5rem + 80px);
     }
 } */
 
-/* hero */
-/* .hero {
-    padding-bottom: 1rem;
-    padding-top:  50px;
-    }
-@media (min-width: 1200px) {
-    .hero {
-        
-        padding-top: 10px;
-        }
-    }
-
-  .image-container {
-    position: relative;
-  }
-  
-  .image-container img {
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    object-position: center top;
-    height: 500px;
-  }
-  
-  .text-overlay {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white; /* Colore del testo per garantire la leggibilità */
-/*   }
-  
-  @media (min-width:800px) {
-    .text-overlay{
-        text-align: left;
-        top: 50%;
-    }
-    .image-container img {
-        width: 100%;
-        display: block;
-        object-fit: cover;
-        object-position: center;
-        height: 800px;
-      }
-} */ 
 
 /* btn */
 .btn {
