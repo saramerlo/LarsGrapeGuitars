@@ -118,7 +118,7 @@ img::selection{
 
 /* navbar */
 .pittogramma{
-    height:1.625rem;
+    height:1.9rem;
 }
 .logotype{
     height:1rem;
@@ -126,11 +126,10 @@ img::selection{
 
 @media (min-width: 767px){
     .pittogramma{
-        height:auto;
-        width: 3.75rem;
+        height:2.5rem;
     }
     .logotype{
-        height:1.625rem;
+        height:1.5rem;
     }
 }
     
