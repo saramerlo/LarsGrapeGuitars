@@ -468,7 +468,7 @@ header{
     justify-content: center;
 }
 
-@media (max-height:425px){
+@media (max-width:425px){
     .img-container{
         max-height: 350px;
 }
