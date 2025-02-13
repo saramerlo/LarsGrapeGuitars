@@ -468,6 +468,13 @@ header{
     justify-content: center;
 }
 
+@media (max-height:425px){
+    .img-container{
+        max-height: 350px;
+}
+}
+
+
 #services .card{
     background-color:rgb(52, 52, 52, 0.6);
     padding: 2rem;
