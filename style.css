@@ -8,8 +8,9 @@
     --bg-secondary:#343434;
     --primary-color:#8B6130;
     --secondary-color:#BF895A;
-    --navbar-bg:#282828;
-    --navbar-text:#EAEAEA;   
+    --navbar-bg:#282828; 
+    --navbar-text:#EAEAEA;        
+    
   
     /* text */
     --text-primary:#ebebeb;
@@ -305,7 +306,8 @@ padding-top: calc(5rem + 80px);
 }
 
 .btn-link:hover, .btn-link:active, .btn-link:focus{
-    color: var(--primary-color)!important;
+/*     color: var(--primary-color)!important; */
+    filter: brightness(1.2) !important;
 }
 
 .btn-outline{
