@@ -322,8 +322,14 @@ padding-top: calc(5rem + 80px);
 
 .btn-outline{
     color: var(--secondary-color);
-    border: solid;
+        border: solid 2px;
     border-color: var(--secondary-color);
+}
+
+.btn-outline:hover{
+    color: var(--primary-color);
+    border: solid;
+    border-color: var(--primary-color);
 }
 
 .btn-social{
@@ -339,13 +345,6 @@ padding-top: calc(5rem + 80px);
 
 .btn-share:hover{
     background-color: var(--primary-color);
-}
-
-
-.btn-outline:hover{
-    color: var(--primary-color);
-    border: solid;
-    border-color: var(--primary-color);
 }
 
 @media (min-width:992px) {
