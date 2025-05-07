@@ -775,11 +775,12 @@ position: relative;
 #announce .container{
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 
 #announce h2, #announce p{
    color: var(--bg-primary);
+   text-align: center;
 }
 
 #announce p{
@@ -791,11 +792,60 @@ position: relative;
     height: 8rem;
 }
 
-/* swiper modelli */
-.swiper-modelli .swiper-slide img {
-    display: block;
-    height: 100%;
-  }
+@media (min-width:767px){
+    #announce .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #announce h2, #announce p{
+        text-align: left;
+     }
+
+    .flag{
+        height: 12rem;
+        margin-right: 3rem;
+    }
+}
+
+
+/* announce */
+#announce2{
+    background-color: var(--secondary-color);
+    background-image: url(assets/dragon.png);
+    background-repeat: no-repeat;
+}
+#announce2 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#announce2 h2, #announce2 p, #nnounce2 h5{
+   color: var(--bg-primary);
+   text-align: center;
+}
+
+#announce2 p{
+    font-weight: var(--regular);
+
+}
+
+
+
+@media (min-width:767px){
+    #announce2 .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #announce2 h2, #announce2 p{
+        text-align: left;
+     }
+#announce2{
+        background-position:right;
+}
+}
 
 /* wip le dimensioni vanno sistemate, ora sono di prova */
 
