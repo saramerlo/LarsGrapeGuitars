@@ -294,6 +294,9 @@ padding-top: calc(5rem + 80px);
     background-color: var(--primary-color)!important;
     border: none;
 }
+.btn-primary:hover {
+    background-color: var(--secondary-color)!important;
+}
 
 .btn-link{
     color: var(--secondary-color);
@@ -339,6 +342,9 @@ padding-top: calc(5rem + 80px);
         color: var(--text-primary)!important;
         font-weight: var(--font-semibold);
         border-radius: var(--border-radius-sm);
+    }
+        .cta:hover{
+        background-color: var(--secondary-color);
     }
 }
 
