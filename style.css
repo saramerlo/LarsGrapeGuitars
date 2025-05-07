@@ -309,6 +309,17 @@ padding-top: calc(5rem + 80px);
     color: var(--primary-color)!important;
 }
 
+.btn-dark{
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.btn-dark:hover{
+    background-color: var(--primary-color);
+    color: var(--text-primary);
+    border-color: var(--primary-color);
+}
+
 .btn-outline{
     color: var(--secondary-color);
     border: solid;
@@ -770,11 +781,6 @@ position: relative;
 
 #announce h2, #announce p{
    color: var(--bg-primary);
-}
-
-#announce .btn-outline{
-    color: var(--bg-primary);
-    border-color:var(--bg-primary) ;
 }
 
 #announce p{
