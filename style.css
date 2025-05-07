@@ -306,8 +306,7 @@ padding-top: calc(5rem + 80px);
 }
 
 .btn-link:hover, .btn-link:active, .btn-link:focus{
-/*     color: var(--primary-color)!important; */
-    filter: brightness(1.2) !important;
+    color: var(--primary-color)!important;
 }
 
 .btn-outline{
