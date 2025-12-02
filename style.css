@@ -681,7 +681,7 @@ article {
     background-position: bottom right;
 }
 
-#tyr{
+/* #tyr{
 background-image: url(assets/shield.webp);
 }
 
@@ -703,7 +703,7 @@ background-image: url(assets/drakkar.webp);
 
 #loki{
 background-image: url(assets/loki.webp);
-}
+} */
 
 @media (min-width:767px) {
     #modelli img {
@@ -717,6 +717,11 @@ background-image: url(assets/loki.webp);
     #hela, #freya, #drakkar {
     background-position: 40% 100%;
     }
+}
+
+/* pagina interna modelli */
+.img-model-small{
+    max-height: 80vh;
 }
 
 /* aboutme page */
