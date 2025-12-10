@@ -11,6 +11,7 @@
     --navbar-bg:#282828; 
     --navbar-text:#EAEAEA;        
     
+  
     /* text */
     --text-primary:#ebebeb;
     --text-secondary:#c9c9c9;
@@ -585,6 +586,10 @@ article {
     cursor: grab;
 }
 
+.swiper-slide{
+    cursor: grab;
+}
+
 /* form */
 #form{
     background-color: var(--bg-secondary);
@@ -702,6 +707,7 @@ background-image: url(assets/loki.webp);
 }
 
 /* pagina interna modelli */
+
 .img-model-small{
     max-height: 80vh;
 }
@@ -840,6 +846,8 @@ position: relative;
 .div9 {grid-area: 7 / 2 / 7 / 6;}
 .div10{grid-area: 8 / 2 / 8 / 6;}
 .div11{grid-area: 9 / 2 / 9 / 6;}
+.div12{grid-area: 10 / 2 / 10 / 6;}
+.div13{grid-area: 11 / 2 / 11 / 6;}
 
 @media (min-width:767px){
 .div1 { grid-area: 1 / 1 / 5 / 2; }
@@ -853,6 +861,8 @@ position: relative;
 .div9 { grid-area: 4 / 3 / 5 / 6; }
 .div10{grid-area: 5 / 2 / 7 / 6;}
 .div11{grid-area: 5 / 3 / 7 / 6;}
+.div12{grid-area: 6 / 2 / 8 / 6;}
+.div13{grid-area: 6 / 3 / 8 / 6;}
 }   
 
 .div1 img{
