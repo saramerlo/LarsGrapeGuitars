@@ -709,7 +709,12 @@ background-image: url(assets/loki.webp);
 /* pagina interna modelli */
 
 .img-model-small{
-    max-height: 80vh;
+    max-height: 45vh;
+}
+@media (min-width: 576px) {
+   .img-model-small{
+    max-height: 65vh;
+}
 }
 
 /* aboutme page */
@@ -922,3 +927,4 @@ width: 100%;
 .list-unstyled svg {
 margin-right: 1.54rem;
 }
+
