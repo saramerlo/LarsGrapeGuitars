@@ -555,7 +555,7 @@ article {
 }
 
 /*bg decoration - news */
-#news-page{
+#news-page, #modelli{
     background-image: url(assets/knots2.png);
     background-repeat: repeat-y;
 }
@@ -927,4 +927,5 @@ width: 100%;
 .list-unstyled svg {
 margin-right: 1.54rem;
 }
+
 
