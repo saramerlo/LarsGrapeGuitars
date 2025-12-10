@@ -709,12 +709,7 @@ background-image: url(assets/loki.webp);
 /* pagina interna modelli */
 
 .img-model-small{
-    max-height: 45vh;
-}
-@media (min-width: 576px) {
-   .img-model-small{
-    max-height: 65vh;
-}
+    max-height: 80vh;
 }
 
 /* aboutme page */
@@ -754,14 +749,22 @@ position: relative;
     }
 }
 
-#lavori{
+#lavori, #lavori-frigga, #lavori-loki {
     background-image:url(assets/tyr.webp);
     background-size: cover;
     background-position: center;
     padding: 8rem 0;
 }
 
-#lavori .card{
+#lavori-frigga{
+    background-image:url(assets/modelli/frigga/dettagli-frigga.webp);
+}
+
+#lavori-loki{
+    background-image:url(assets/modelli/loki-2/dettagli-loki-2.webp);
+}
+
+#lavori .card, #lavori-frigga .card, #lavori-loki .card{
     background-color:rgb(52, 52, 52, 0.95);
     border: none;
 }
@@ -927,5 +930,3 @@ width: 100%;
 .list-unstyled svg {
 margin-right: 1.54rem;
 }
-
-
