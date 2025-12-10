@@ -31,6 +31,34 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 });
 
+// SWIPER video
+document.addEventListener("DOMContentLoaded", function () {
+  const swiperEl = document.querySelector('.swiperVideo');
+
+  // evita errori se la swiperVideo non è presente
+  if (!swiperEl) return;
+
+  Object.assign(swiperEl, {
+    slidesPerView: 1,
+    spaceBetween: 16,
+    pagination: {
+      clickable: true,
+    },
+    // navigation: false → eliminato, così NON crea frecce
+    allowTouchMove: true, // assicura che il drag sia abilitato
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 24,
+      }
+    },
+    loop: true,
+  });
+
+  swiperEl.initialize();
+});
+
+
 //chiudi menù mobile
 document.addEventListener("DOMContentLoaded", function () {
   // Aggiungi un gestore di eventi per il clic su tutto il documento
@@ -78,3 +106,6 @@ const pageTitle = encodeURIComponent(document.title);
 document.getElementById('facebook-share').href = 'https://www.facebook.com/sharer.php?u=' + window.location.href;
   document.getElementById('twitter-share').href = 'https://twitter.com/intent/tweet?url=' + window.location.href;
   document.getElementById('linkedin-share').href = 'https://www.linkedin.com/shareArticle?mini=true&url=' + window.location.href;
+
+
+  
