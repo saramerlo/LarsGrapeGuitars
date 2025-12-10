@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     breakpoints: {
       768: {
         slidesPerView: 3,
-        spaceBetween: 24,
+        spaceBetween: 16,
       }
     },
     loop: true,
@@ -87,15 +87,6 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// rotate icon
-document.addEventListener('DOMContentLoaded', (event) => {
-  const link  = document.getElementById('collapse-head');
-  const icon = link.querySelector('.rotate-icon');
-
-  link.addEventListener('click', () => {
-    icon.classList.toggle('collapsed');
-  });
-});
 
 // share social
 
@@ -108,4 +99,26 @@ document.getElementById('facebook-share').href = 'https://www.facebook.com/share
   document.getElementById('linkedin-share').href = 'https://www.linkedin.com/shareArticle?mini=true&url=' + window.location.href;
 
 
-  
+  // lazy load
+// document.addEventListener("DOMContentLoaded", function() {
+//     let lazyImages = document.querySelectorAll("img.lazy");
+
+//     if ("IntersectionObserver" in window) {
+//         let lazyImageObserver = new IntersectionObserver((entries, observer) => {
+//             entries.forEach(entry => {
+//                 if (entry.isIntersecting) {
+//                     let img = entry.target;
+//                     img.src = img.dataset.src;
+//                     img.removeAttribute("data-src");
+//                     img.classList.remove("lazy");
+//                     lazyImageObserver.unobserve(img);
+//                 }
+//             });
+//         });
+
+//         lazyImages.forEach(img => lazyImageObserver.observe(img));
+//     } else {
+//         // Fallback per browser più vecchi
+//         lazyImages.forEach(img => img.src = img.dataset.src);
+//     }
+// });
