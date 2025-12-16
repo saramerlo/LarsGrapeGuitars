@@ -498,6 +498,7 @@ font-weight: var(--light);
 }
 .title{
     flex-flow: column;
+    padding-bottom: 1.5rem;
 }
 
 .card-gallery{
@@ -555,7 +556,7 @@ article {
 }
 
 /*bg decoration - news */
-#news-page, #modelli{
+#modelli, #news-page{
     background-image: url(assets/knots2.png);
     background-repeat: repeat-y;
 }
@@ -759,7 +760,13 @@ position: relative;
     background-image:url(assets/tyr.webp);
     background-size: cover;
     background-position: center;
-    padding: 8rem 0;
+    padding: 4rem 0;
+}
+
+@media (min-width:767px){
+    #lavori, #lavori-frigga, #lavori-loki{
+padding: 8rem 0;
+    }
 }
 
 #lavori-frigga{
