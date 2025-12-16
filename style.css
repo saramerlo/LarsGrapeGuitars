@@ -587,6 +587,22 @@ article {
 .swiper-slide{
     cursor: grab;
 }
+/* Altezza uguale per tutte le slide */
+.swiper-product .swiper-slide{
+  height: 220px;              /* scegli tu l’altezza */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Immagine dentro la cornice: non deforma, non taglia */
+.swiper-product .swiper-slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 
 /* swiper video */
 
@@ -968,3 +984,4 @@ width: 100%;
 .list-unstyled svg {
 margin-right: 1.54rem;
 }
+
