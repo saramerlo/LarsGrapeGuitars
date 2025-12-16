@@ -474,7 +474,6 @@ header{
 }
 }
 
-
 #services .card{
     background-color:rgb(52, 52, 52, 0.6);
     padding: 2rem;
@@ -516,9 +515,6 @@ font-weight: var(--light);
     color: var(--text-primary);
 }
 
-/* .card-body{
-    padding:2rem 2.5rem; 
-} */
 .card-body{
     padding:2rem 1.5rem; 
 }
@@ -562,6 +558,7 @@ article {
 }
 
 /* swiper home */
+
 .swiper-container {
     width: 100%;
     overflow: hidden;
@@ -590,6 +587,34 @@ article {
 .swiper-slide{
     cursor: grab;
 }
+
+/* swiper video */
+
+swiper-container.swiperVideo {
+  --swiper-pagination-color: var(--secondary-color);           /* bullet attivo */
+  --swiper-pagination-bullet-inactive-color: #dcdcdc;         /* bullet inattivi */
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-inactive-opacity: 0.3;
+}
+
+.videoWrap { position: relative; }
+
+.videoOverlay{
+  position: absolute;
+  inset: 0;
+  cursor: grab;
+  z-index: 2;
+}
+
+swiper-container.swiperVideo:active .videoOverlay{
+  cursor: grabbing;
+}
+
+/* quando attivo, lascio cliccare l'iframe */
+.videoWrap.is-active .videoOverlay{
+  display: none;
+}
+
 
 /* form */
 #form{
@@ -827,11 +852,11 @@ padding: 8rem 0;
 .swiper-button-next, .swiper-button-prev{
     background-color: var(--bg-secondary);
     color: var(--text-primary);
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .swiper-button-next:after, .swiper-button-prev:after{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--text-secondary);
 }
 
