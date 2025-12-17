@@ -374,22 +374,11 @@ padding-top: calc(5rem + 80px);
 }
 }
 
-.last-btn{
-    margin-bottom: 2rem;
-}
-
 @media (min-width: 768px) {
-    .btn-social-big{
-        padding: 1rem 1.2rem;
-    }
     #social .social-group{
         display: flex;
-        flex-direction: row-reverse;
-        gap: 0.5rem;
-        justify-content: flex-end;
-    }
-    .last-btn{
-        margin-bottom: 0rem;
+        gap: 0.8rem;
+        align-items: center;
     }
     }
 
@@ -587,6 +576,7 @@ article {
 .swiper-slide{
     cursor: grab;
 }
+
 /* Altezza uguale per tutte le slide */
 .swiper-product .swiper-slide{
   height: 220px;              /* scegli tu l’altezza */
@@ -984,4 +974,3 @@ width: 100%;
 .list-unstyled svg {
 margin-right: 1.54rem;
 }
-
