@@ -787,7 +787,7 @@ position: relative;
     }
 }
 
-#lavori, #lavori-frigga, #lavori-loki {
+#lavori, #lavori-frigga, #lavori-loki, #lavori-drakkar, #lavori-fenrir, #lavori-freya, #lavori-hela, #lavori-tyr, #lavori-ulfr {
     background-image:url(assets/tyr.webp);
     background-size: cover;
     background-position: center;
@@ -795,9 +795,31 @@ position: relative;
 }
 
 @media (min-width:767px){
-    #lavori, #lavori-frigga, #lavori-loki{
+    #lavori, #lavori-frigga, #lavori-loki, #lavori-drakkar, #lavori-fenrir, #lavori-freya, #lavori-hela, #lavori-tyr, #lavori-ulfr {
 padding: 8rem 0;
     }
+}
+
+#lavori-ulfr{
+    background-image:url(assets/modelli/Ulfr/ulfr-dettaglio.webp); 
+}
+#lavori-tyr{
+   background-image:url(assets/modelli/tyr/tyr-dettagli.webp); 
+}
+#lavori-freya {
+    background-image:url(assets/modelli/hela/dettagli-hela.webp);
+}
+
+#lavori-freya {
+    background-image:url(assets/modelli/freya/dettagli-freya.webp);
+}
+#lavori-fenrir {
+    background-image:url(assets/modelli/fenrir/dettagli-fenrir.webp);
+}
+
+
+#lavori-drakkar{
+    background-image:url(assets/modelli/drakkar/drakkar-dettagli.webp);
 }
 
 #lavori-frigga{
