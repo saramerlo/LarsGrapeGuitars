@@ -800,6 +800,10 @@ padding: 8rem 0;
     }
 }
 
+#lavori-hela{
+    background-image:url(assets/modelli/hela/dettagli-hela.webp); 
+}
+
 #lavori-ulfr{
     background-image:url(assets/modelli/Ulfr/ulfr-dettaglio.webp); 
 }
@@ -996,3 +1000,4 @@ width: 100%;
 .list-unstyled svg {
 margin-right: 1.54rem;
 }
+
