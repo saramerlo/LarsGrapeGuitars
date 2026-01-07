@@ -1042,7 +1042,8 @@ margin-right: 1.54rem;
 .photo-modal .modal-content{
   border: none;
   position: relative;
-  overflow: hidden; /* evita che roba esca fuori quando header è assoluto */
+  overflow: hidden;
+  background-color: transparent;
 }
 
 /* Togli padding e gestisci immagine/carousel */
@@ -1080,3 +1081,4 @@ margin-right: 1.54rem;
 .photo-modal .carousel-control-next{
   z-index: 5;
 }
+
