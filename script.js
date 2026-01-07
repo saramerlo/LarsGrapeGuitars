@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const swiperProductEl = $(".swiper-product");
   if (swiperProductEl) {
     const swiperProduct = new Swiper(".swiper-product", {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 10,
       freeMode: true,
       pagination: {
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
         clickable: true,
       },
       breakpoints: {
-        768: { slidesPerView: 7, spaceBetween: 10 },
+        768: { slidesPerView: 6, spaceBetween: 10 },
       },
     });
 
@@ -169,3 +169,4 @@ document.addEventListener("DOMContentLoaded", () => {
 //         lazyImages.forEach(img => img.src = img.dataset.src);
 //     }
 // });
+
