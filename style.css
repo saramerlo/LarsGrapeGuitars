@@ -852,7 +852,7 @@ padding: 8rem 0;
     background-image:url(assets/modelli/loki-2/dettagli-loki-2.webp);
 }
 
-#lavori .card-details{
+.card-details{
     background-color:rgb(52, 52, 52, 0.95);
     border: none;
 }
@@ -1083,6 +1083,7 @@ margin-right: 1.54rem;
 .photo-modal .carousel-control-next{
   z-index: 5;
 }
+
 
 
 
